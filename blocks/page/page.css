@@ -1,0 +1,12 @@
+.page {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1280px;
+    width: 100%;
+    min-width: 320px;
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

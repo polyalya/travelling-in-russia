@@ -1,0 +1,30 @@
+/* __lang-link */
+.header__lang-link{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: #FFFFFF;
+    -webkit-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+.header__lang-link_active{
+    text-decoration: underline;
+}
+
+@media (max-width: 1280px){
+    .header__lang-link{
+        font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1280 - 320)));
+        line-height: calc(20px + (28 - 20) * ((100vw - 320px) / (1280 - 320)));
+    }
+}    

@@ -1,0 +1,41 @@
+/* places */
+
+.places {
+    max-width: 984px;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    gap: 80px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+}
+  
+  @media screen and (max-width: 1024px) {
+    .places {
+      max-width: 117.6vh;
+      margin: 88px 24px 0 24px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .places {
+      gap: 73px;
+      max-width: 91.25vh;
+      margin: 88px 24px 0 24px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .places {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .places {
+      gap: 50px;
+      margin-bottom: 66px;
+      margin-top: 64px;
+  
+    }
+  }

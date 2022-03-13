@@ -1,0 +1,27 @@
+/* intro */
+
+.intro {
+    max-width: 984px;
+    margin-top: 92px;
+    margin-right: 0;
+    margin-left: 148px; 
+    padding: 0;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width: 1280px){
+    .intro {
+        max-width: calc(288px + (984 - 288) * ((100vw - 320px) / (1280 - 320)));
+        margin-top: calc(64px + (92 - 64) * ((100vw - 320px) / (1280 - 320)));
+        margin-left: calc(16px + (148 - 16) * ((100vw - 320px) / (1280 - 320)));;
+    }
+}
+
+
